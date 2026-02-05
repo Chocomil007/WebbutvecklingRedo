@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+ 
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    
+    "A B"
+    "A C"
+    "D D"
+    
+    ;
+
+}
+
+section{
+       background: crimson;
+    padding: 10px;
+    margin: 10px;
+}
+
+#a{
+    grid-area: A;
+}
+
+#b{
+    grid-area: B;
+}
+
+#c{
+    grid-area: C;
+}
+
+#d{
+    grid-area: D;
+}

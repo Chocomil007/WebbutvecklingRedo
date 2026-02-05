@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: url("Tacos_back.jpg");
+    padding: 100px;
+    background-size: cover;
+
+}
+
+a{
+    background-color: burlywood;
+    color: brown;
+}
+nav a{
+    padding: 10px;
+    display: inline-block;
+
+}
+nav a:hover{
+
+    background-color: brown;
+    color: burlywood;
+}

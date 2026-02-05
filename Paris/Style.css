@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    
+" a b c "
+" d . e "
+" f g h "
+" i txt txt"
+" j txt txt"
+    ;
+margin-left: 25%;
+margin-right: 25%;
+padding: 0;
+/* height: 100vh; */
+
+}
+
+section{
+    min-height: 200px;
+}
+
+#a{
+    grid-area: a;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/a.jpg);
+}
+#b{
+    grid-area: b;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/b.webp);
+}
+#c{
+    grid-area: c;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/c.jpg);
+}
+#d{
+    grid-area: d;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/d.jpg);
+}
+#e{
+    grid-area: e;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/e.jpg);
+}
+#f{
+    grid-area: f;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/f.jpg);
+}
+#g{
+    grid-area: g;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/g.webp);
+}
+#h{
+    grid-area: h;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/h.jpg);
+}
+#i{
+    grid-area: i;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/i.jpg);
+}
+#j{
+    grid-area: j;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-image: url(IMG/j.jpg);
+}
+#txt{
+    grid-area: txt;
+    font-size: 40px;
+}

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: url('Images/scoops.jpg') ;
+    padding: 100px;   
+    background-size: cover;
+}
+nav{
+    background: cadetblue;
+}
+
+nav a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cadetblue;
+    color:ghostwhite
+}
+
+nav a:hover{
+    background-color: ghostwhite;
+    color: cadetblue;
+}
+
+main{
+    padding-left: 10px;
+}
+
+h1{
+    font: 30px verdana;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#ice_cream{
+    width: 20%;
+}

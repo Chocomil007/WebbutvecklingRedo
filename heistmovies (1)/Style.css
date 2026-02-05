@@ -1,0 +1,67 @@
+
+@charset "UTF-8";
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 0.5fr 1fr;
+    grid-template-areas: 
+    "rock rock stone stone "
+    "one two two three"
+    ;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin: 10;
+  padding: 10;
+}
+
+section{
+    background-size: cover;
+}
+
+#heat{
+    grid-area: rock;
+    background: url(Images/heat.jpg);
+    background-size: cover;
+    min-height: 400px;
+
+}
+
+#insideman{
+    grid-area: one;
+    background: url(Images/insideman.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+
+#bankjob{
+    grid-area: three;
+    background: url(Images/bankjob.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+
+#usualsuspect{
+    grid-area: stone;
+    background: url(Images/usualsuspects.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+
+#rififi{
+    grid-area: two;
+    background: url(Images/rififi.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+    
+
+
+

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+
+}
+
+header{
+    background-color: cornflowerblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+section{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+    background-color: deepskyblue;
+    border-radius: 7px;
+}
+
+#bild{
+    width:100%;
+    
+}
+
+
+@media  screen and (min-width: 620px) {
+    #instruct{
+        display: flex;
+    }
+
+    #info{
+        display: flex;
+    }
+    
+}
